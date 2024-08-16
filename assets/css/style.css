@@ -17,14 +17,15 @@
 .bg-2 {
     background-image: url(/assets/images/background-image.png);
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: 100% 82%;
+    background-position: bottom center;
 }
 
 .bg-right {
     background-image: url(/assets/images/sec-6-right.png);
     background-repeat: no-repeat;
     position: absolute;
-    right: 0;
+
 }
 
 .bg-left {
@@ -37,13 +38,11 @@
 .heading {
     font-style: italic;
     font-weight: 300;
-    line-height: 97.5px;
     text-align: center;
 }
 
 .bold-heading {
     font-weight: 700;
-    line-height: 97.5px;
     text-align: center;
     font-style: normal;
 }
@@ -61,7 +60,6 @@
 /* ============================================= section-2 ================================================= */
 .sec-2-bold-heading {
     font-weight: 700;
-    line-height: 83.2px;
     text-align: left;
     font-style: normal;
 }
@@ -69,7 +67,6 @@
 .sec-2-heading {
     font-style: italic;
     font-weight: 300;
-    line-height: 83.2px;
     text-align: left;
     max-width: 594px;
     width: 100%;
@@ -137,7 +134,6 @@ div.slick-track {
 .sec-4-heading {
     font-style: italic;
     font-weight: 300;
-    line-height: 83.2px;
     text-align: center;
     text-align: left;
 }
@@ -145,7 +141,6 @@ div.slick-track {
 .sec-4-bold-headimg {
     font-size: 64px;
     font-weight: 700;
-    line-height: 83.2px;
     text-align: center;
     font-style: normal;
 }
@@ -153,7 +148,6 @@ div.slick-track {
 /* ========================================== secton-5 =================================================== */
 .sec-5-heading {
     font-weight: 700;
-    line-height: 83.2px;
     text-align: center;
     margin-top: 185px;
 
@@ -162,14 +156,12 @@ div.slick-track {
 .sec-5-italic {
     font-style: italic;
     font-weight: 300;
-    line-height: 83.2px;
     text-align: center;
 }
 
 .sec-5-card {
     max-width: 636px;
     width: 100%;
-    height: 809px;
     border-radius: 17px;
     border: 3px solid #A68272;
     padding: 21px 25px 21px 25px;
@@ -177,7 +169,6 @@ div.slick-track {
 
 .Magicians-box {
     max-width: 586px;
-    height: 195px;
     border-radius: 16px;
     border: 1px solid #A68272;
 }
@@ -194,7 +185,6 @@ div.slick-track {
     line-height: 24px;
     text-align: left;
     max-width: 419px;
-    height: 96px;
     color: #0C0F26;
 }
 
@@ -217,7 +207,6 @@ div.slick-track {
 .sec-6-heading {
     font-style: italic;
     font-weight: 300;
-    line-height: 83.2px;
     text-align: left;
     max-width: 540px;
     width: 100%;
@@ -258,14 +247,12 @@ div.slick-track {
 .sec-7-heading {
     font-style: italic;
     font-weight: 300;
-    line-height: 83.2px;
     text-align: center;
 }
 
 .sec-7-bold-heading {
     font-size: 64px;
     font-weight: 700;
-    line-height: 83.2px;
     text-align: center;
     font-style: normal;
 }
@@ -421,6 +408,10 @@ div.slick-track {
     padding-top: 28px;
 }
 
+.padding-top-32 {
+    padding-top: 32px;
+}
+
 .pb-62 {
     padding-bottom: 62px;
 }
@@ -462,6 +453,14 @@ div.slick-track {
         max-width: none;
     }
 
+    .padding-top-32 {
+        padding: 0;
+    }
+}
+@media (min-width:576px) {
+    .padding-top-32 {
+        padding-top: 32px;
+    }
 }
 
 @media (min-width:992px) {
